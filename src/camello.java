@@ -8,7 +8,7 @@ public class camello extends Thread {
     private String nombre;
     private int y ;
     private    String gongFile ;
-    int total=100;
+    int total=0;
     JLabel img = new JLabel(" ");
 
 
@@ -32,7 +32,7 @@ public class camello extends Thread {
 
 
 
-        ImageIcon image = new ImageIcon("/Users/Mateo/Desktop/camello.gif");
+        ImageIcon image = new ImageIcon("/Users/Mateo/Desktop/threads/camello.gif");
         img.setIcon(image);
         img.setSize(135,135);
         img.setLocation(total,y);
